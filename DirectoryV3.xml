@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+ <trees>
+     <tree path="/node_modules" title="依赖" extension="" presentableText="" tooltipTitle=""
+           icon="XmlBrowsersCanary" textColor="255,33,30" backgroundColor=""/>
+     <tree path="/src" title="资源目录" extension="" presentableText="" tooltipTitle="" icon="XmlBrowsersCanary"
+           textColor="0,255,38"/>
+     <tree path="/package.json" title="依赖坐标" extension="" presentableText="" tooltipTitle=""
+           icon="XmlBrowsersCanary" textColor="0,23,255"/>
+     <tree path="/pnpm-lock.yaml" title="坐标版本"/>
+ </trees>

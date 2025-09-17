@@ -1,0 +1,21 @@
+{
+  "name": "chrelyonly-ww-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrelyonly/chrelyonly-ww-api"
+  },
+  "private": true,
+  "dependencies": {
+    "axios": "^1.12.2",
+    "crypto-js": "^4.2.0",
+    "node-forge": "^1.3.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
