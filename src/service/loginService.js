@@ -7,7 +7,7 @@ export const loginQrKey = () => {
         let params = {
             type: 3
         }
-        $https("/login/qrcode/unikey","get",params,1,{}).then((res) => {
+        $wyyHttps("/login/qrcode/unikey","get",params,2,{}).then((res) => {
             if (res.data.code === 200) {
                 resolve(res.data.unikey)
             }else{
@@ -37,7 +37,7 @@ export const loginQrCheck = (codeKey) => {
             key: codeKey,
             type: 3,
         }
-        $https("/login/qrcode/client/login","get",params,1,{}).then((res) => {
+        $wyyHttps("/login/qrcode/client/login","get",params,1,{}).then((res) => {
             if (res.data.code === 200) {
                 resolve(res.data)
             }else{
